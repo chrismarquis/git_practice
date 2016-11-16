@@ -1,0 +1,12 @@
+Repository
+create directory
+$git init
+Staging
+$git status //shows untracked files
+$git add
+$git status //changes to be commited will be listed
+Commit
+$git commit -m "enter message here - what did I change?"
+//staged files added to local master, staging area cleared down
+Push
+Pull
