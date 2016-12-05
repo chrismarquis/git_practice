@@ -25,3 +25,7 @@ end
 def join_string (strone, strow)
   return strone + strow
 end
+
+def add_string_as_number(first_number, second_number)
+  return to_f.first_number + to_f.second_number
+end
