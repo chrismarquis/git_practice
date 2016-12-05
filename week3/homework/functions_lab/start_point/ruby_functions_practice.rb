@@ -2,3 +2,10 @@
 def add(first_number, second_number)
   return first_number + second_number
 end
+
+def subtract(first_number, second_number)
+  return first_number - second_number
+end
+
+#def summage (first_number, second_number, operator)
+# => return first_number #[opeator] second_number
