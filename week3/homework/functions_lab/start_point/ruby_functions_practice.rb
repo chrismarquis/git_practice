@@ -21,3 +21,7 @@ end
 def length_of_string (text)
   return  text.length
 end
+
+def join_string (strone, strow)
+  return strone + strow
+end

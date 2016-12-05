@@ -31,13 +31,13 @@ class FunctionsPracticeTest < MiniTest::Test
     length_of_string = length_of_string( test_string )
     assert_equal( 21, length_of_string )
   end
-  #
-  # def test_join_string()
-  #   string_1 = "Mary had a little lamb, "
-  #   string_2 = "it's fleece was white as snow"
-  #   joined_string = join_string( string_1, string_2 )
-  #   assert_equal( "Mary had a little lamb, it's fleece was white as snow", joined_string )
-  # end
+
+  def test_join_string()
+    string_1 = "Mary had a little lamb, "
+    string_2 = "it's fleece was white as snow"
+    joined_string = join_string( string_1, string_2 )
+    assert_equal( "Mary had a little lamb, it's fleece was white as snow", joined_string )
+  end
   #
   # def test_add_string_as_number()
   #   add_result = add_string_as_number( "1", "2" )
