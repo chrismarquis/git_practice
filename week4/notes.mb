@@ -1,0 +1,38 @@
+Data types recap:
+
+Strings ~ Float ~ Int ~ Fixnum ~ Float ~ Boolean
+
+Conditionals
+
+UNderstand how to use conditionals operators  to control behaviour
+
+UNdserstand how to checkequality
+
+==
+a == b  (a is equal to b?) return true / false
+a and b can be any data type, including boolean (usual caveats apply)
+
+< less than
+> more than
+
+<= less than or equal to
+>= more than or equal to
+
+!= is not equal to
+
+&& (logical AND operator), both must be true
+
+true && true = true
+T && F = false
+F && F = false
+
+|| (logical OR operator)
+
+if either side of the question is TRUE then return true
+if both sides of the question are FALSE then return false
+196 >120 || 130 <120 = TRUE
+
+Understand how to use if/else statements
+
+
+ATOM...  CMD + /  to comment out all selected code
