@@ -28,7 +28,7 @@ class ConditionalsPracticeTest < MiniTest::Test
   # the amount of the bank account(Float) and the account_type(String)
   # The function should return 10 percent of the value of a "normal" bank account
   def test_returns_10_percent_for_normal_bank_account
-    result = bank_description (amount account_type)
+    result = bank_description (balance account_type)
     assert_equal()
   end
 
