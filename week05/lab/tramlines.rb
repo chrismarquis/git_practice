@@ -23,10 +23,29 @@ lines.last
 
 #4. Work out the index position of 'Haymarket'
 
-lines["Haymarket"]
+lines.index("Haymarket")
+lines.index { |x| x == "Haymarket" }
+lines.each {|x| print x, " -- " }
+lines.each_index {|x| print x, " -- " }
+lines.rindex("Haymarket") #shows the furthest position of the object if there are multiples in array
+
+
 
 #5. Add 'Airport' to the start of the array
+
+lines.insert(0, "Airport")
 #6. Add 'York Place' to the end of the array
+
+lines.insert(-1, "York Place")
 #7. Remove 'Edinburgh Park' from the array using it's name
+
+lines.delete("Edinburgh Park")
+lines.delete_if{|x| x == "Edinburgh Park"}
+But!  all will be deleted if I use  lines.delete_if{"Edinburgh Park"}
 #8. Delete 'Edinburgh Park' from the array by index
+
+lines.delete_at(1)
 #9. Reverse the positions of the stops in the array
+lines.reverse
+lines.reverse!
+lines.reverse_each {|x| print x, " " }
