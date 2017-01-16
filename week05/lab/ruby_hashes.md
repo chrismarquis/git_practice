@@ -111,6 +111,9 @@ We can remove items using the delete method.
 
 [TASK:] Make a hash with a key of a persons name and the value as their pocket money. Try updating and deleting items from it.
 
+Pock = { "krs" => 3.01,  "jon"=> 4.00, "mikey" =>900 }
+
+
 # Helpful methods
 
 A hash has lots of helpful methods, including a way to list all the keys:

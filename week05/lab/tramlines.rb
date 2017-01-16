@@ -18,6 +18,7 @@ lines.include?("Edinburgh Park")  #returns TRUE
 lines[4]
 lines[-1]
 lines.at(4)
+lines.slice(4)
 lines.fetch(4,"error message if out of bounds")
 lines.last
 
@@ -34,13 +35,19 @@ lines.rindex("Haymarket") #shows the furthest position of the object if there ar
 #5. Add 'Airport' to the start of the array
 
 lines.insert(0, "Airport")
+lines.unshift("Airport")
 #6. Add 'York Place' to the end of the array
 
 lines.insert(-1, "York Place")
+lines.push("York Place")
+lines << "York Place"
 #7. Remove 'Edinburgh Park' from the array using it's name
 
 lines.delete("Edinburgh Park")
 lines.delete_if{|x| x == "Edinburgh Park"}
+lines -= ["Edinburgh Park"]  changes original
+lines - ["Edinburgh Park"]   original remains
+
 But!  all will be deleted if I use  lines.delete_if{"Edinburgh Park"}
 #8. Delete 'Edinburgh Park' from the array by index
 
